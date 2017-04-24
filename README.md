@@ -9,7 +9,10 @@ MIU is an application for Mac OS that simplifies the generation of methods for m
 - performs model condition analysis
 
 MIU combines a simple, intuitive interface with broad capacities to simplify your work.
-#Usage
+
+# Usage
+---
+
 MIU gives an opportunity to add Xcode projects, and it is also possible to filter already added projects for fast and convenient search. To add a project, all you need is to click the button ![GitHub Logo](/images/newProjectBtn.png) and select the folder where the project is stored. The project name will be defined by the application automatically, but it can also be changed manually. If the project has already been added, you can change its name by right-clicking the context menu. 
 Double-click on the icon or choose the item from context menu and start the project. 
 Choose either “Rename” or “Remove”.
@@ -71,7 +74,7 @@ If there is no defined method in the implementation of the class, there is a gap
 ![GitHub Logo](/images/gifs/generating.gif)
 
 ## Install
-1. [Download latest version](https://www.nixsolutions.com)
+1. [Download latest version](https://github.com/NixSolutionsMobile/MIU/releases/tag/v1.0.0)
 2. Move `MIU.app` to `Applications` folder
 3. Use it :)
 
