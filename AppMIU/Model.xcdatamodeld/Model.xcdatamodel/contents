@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Class" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="properties" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="projectClass" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Path" representedClassName="" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="path" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rootPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="path" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Path" inverseName="project" inverseEntity="Path" syncable="YES"/>
+        <relationship name="projectClass" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Class" inverseName="project" inverseEntity="Class" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Class" positionX="-333" positionY="18" width="90" height="90"/>
+        <element name="Path" positionX="-0" positionY="63" width="90" height="88"/>
+        <element name="Project" positionX="-173" positionY="-126" width="128" height="120"/>
+    </elements>
+</model>

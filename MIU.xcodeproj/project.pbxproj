@@ -1,0 +1,1258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5024644C1DE334F100454C84 /* NSColor+MIUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5024644A1DE330EE00454C84 /* NSColor+MIUColor.m */; };
+		503440A01DF86BAC00A40E2C /* MIUWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5034409F1DF86BAC00A40E2C /* MIUWindow.m */; };
+		503E54171DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 503E54161DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.m */; };
+		5040EE1F1DDDAF6A00BDB061 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5040EE1E1DDDAF6A00BDB061 /* AppKit.framework */; };
+		5040EE751DDDF96F00BDB061 /* MIUFileGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE271DDDF96E00BDB061 /* MIUFileGenerator.m */; };
+		5040EE761DDDF96F00BDB061 /* MIUObjectsScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE2A1DDDF96F00BDB061 /* MIUObjectsScanner.m */; };
+		5040EE771DDDF96F00BDB061 /* MIUCopyWithZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE2E1DDDF96F00BDB061 /* MIUCopyWithZone.m */; };
+		5040EE781DDDF96F00BDB061 /* MIUDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE311DDDF96F00BDB061 /* MIUDescription.m */; };
+		5040EE7A1DDDF96F00BDB061 /* MIUEncodeWithCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE351DDDF96F00BDB061 /* MIUEncodeWithCoder.m */; };
+		5040EE7B1DDDF96F00BDB061 /* MIUHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE381DDDF96F00BDB061 /* MIUHash.m */; };
+		5040EE7C1DDDF96F00BDB061 /* MIUInitWithCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE3B1DDDF96F00BDB061 /* MIUInitWithCoder.m */; };
+		5040EE7D1DDDF96F00BDB061 /* MIUIsEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE3E1DDDF96F00BDB061 /* MIUIsEqual.m */; };
+		5040EE7E1DDDF96F00BDB061 /* MIUMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE411DDDF96F00BDB061 /* MIUMethod.m */; };
+		5040EE7F1DDDF96F00BDB061 /* MIUClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE451DDDF96F00BDB061 /* MIUClass.m */; };
+		5040EE801DDDF96F00BDB061 /* MIUEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE481DDDF96F00BDB061 /* MIUEnum.m */; };
+		5040EE811DDDF96F00BDB061 /* MIUImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE4B1DDDF96F00BDB061 /* MIUImplementation.m */; };
+		5040EE821DDDF96F00BDB061 /* MIUInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE4E1DDDF96F00BDB061 /* MIUInterface.m */; };
+		5040EE831DDDF96F00BDB061 /* MIUProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE511DDDF96F00BDB061 /* MIUProperty.m */; };
+		5040EE841DDDF96F00BDB061 /* MIUProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE541DDDF96F00BDB061 /* MIUProtocol.m */; };
+		5040EE851DDDF96F00BDB061 /* MIUProtocolConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE571DDDF96F00BDB061 /* MIUProtocolConfigurator.m */; };
+		5040EE861DDDF96F00BDB061 /* MIUEnumsScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE5B1DDDF96F00BDB061 /* MIUEnumsScanner.m */; };
+		5040EE871DDDF96F00BDB061 /* MIUFilesScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE5E1DDDF96F00BDB061 /* MIUFilesScanner.m */; };
+		5040EE881DDDF96F00BDB061 /* MIUImplementationsScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE611DDDF96F00BDB061 /* MIUImplementationsScanner.m */; };
+		5040EE891DDDF96F00BDB061 /* MIUInterfacesScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE641DDDF96F00BDB061 /* MIUInterfacesScanner.m */; };
+		5040EE8A1DDDF96F00BDB061 /* MIUPropertiesScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE671DDDF96F00BDB061 /* MIUPropertiesScanner.m */; };
+		5040EE8B1DDDF96F00BDB061 /* MIUPropertyScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE6A1DDDF96F00BDB061 /* MIUPropertyScanner.m */; };
+		5040EE8C1DDDF96F00BDB061 /* MIUProtocolsScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE6D1DDDF96F00BDB061 /* MIUProtocolsScanner.m */; };
+		5040EE8D1DDDF96F00BDB061 /* MIUClassStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE711DDDF96F00BDB061 /* MIUClassStatistics.m */; };
+		5040EE8E1DDDF96F00BDB061 /* MIUMethodStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE741DDDF96F00BDB061 /* MIUMethodStatistics.m */; };
+		50455F7E1DC3350F000A4025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50455F7D1DC3350F000A4025 /* main.m */; };
+		50455F831DC3350F000A4025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50455F821DC3350F000A4025 /* Assets.xcassets */; };
+		509C12091DD4A7F40046E652 /* NewProject.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509C12051DD4A7F40046E652 /* NewProject.storyboard */; };
+		509C120A1DD4A7F40046E652 /* MIUNewProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509C12081DD4A7F40046E652 /* MIUNewProjectViewController.m */; };
+		50B0AED91DCC7F2C009CA10C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0AE781DCC7F2C009CA10C /* AppDelegate.m */; };
+		50B0AEF41DCC7F2C009CA10C /* MIUFilesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0AED21DCC7F2C009CA10C /* MIUFilesDataSource.m */; };
+		50B0AEF51DCC7F2C009CA10C /* MIUResultDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0AED51DCC7F2C009CA10C /* MIUResultDataSource.m */; };
+		50B0AEF61DCC7F2C009CA10C /* MIUPathesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0AED81DCC7F2C009CA10C /* MIUPathesViewController.m */; };
+		50B0AEFD1DCC7F52009CA10C /* first_generation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B0AEF81DCC7F52009CA10C /* first_generation_icon.png */; };
+		50B0AEFE1DCC7F52009CA10C /* generate_with_warnings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B0AEF91DCC7F52009CA10C /* generate_with_warnings_icon.png */; };
+		50B0AEFF1DCC7F52009CA10C /* not_changed_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B0AEFA1DCC7F52009CA10C /* not_changed_icon.png */; };
+		50B0AF001DCC7F52009CA10C /* regenerated_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B0AEFB1DCC7F52009CA10C /* regenerated_icon.png */; };
+		50B0AF011DCC7F52009CA10C /* supported_by_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 50B0AEFC1DCC7F52009CA10C /* supported_by_user.png */; };
+		50B0AF061DCC813C009CA10C /* MIUProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0AF051DCC813C009CA10C /* MIUProjectsViewController.m */; };
+		50E1FF601DD47F4D003E5D06 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1FF5F1DD47F4D003E5D06 /* icon.png */; };
+		50E1FF641DD47FF4003E5D06 /* add_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1FF611DD47FF4003E5D06 /* add_btn.png */; };
+		50E1FF651DD47FF4003E5D06 /* minus_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1FF621DD47FF4003E5D06 /* minus_btn.png */; };
+		50E1FF661DD47FF4003E5D06 /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E1FF631DD47FF4003E5D06 /* play_btn.png */; };
+		50FBF7111DCC9A88003BCCAF /* MIUProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FBF7101DCC9A88003BCCAF /* MIUProjectModel.m */; };
+		7711F5FA1DED8D6700112061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50455F841DC3350F000A4025 /* Main.storyboard */; };
+		7711F5FC1DEDA32200112061 /* run_button_miuCOlor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7711F5FB1DEDA32200112061 /* run_button_miuCOlor.png */; };
+		7767649B1DF99A38006B6723 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7767649D1DF99A38006B6723 /* Localizable.strings */; };
+		77686A041DF02B1F0012D3F0 /* MIUFileAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77686A031DF02B1F0012D3F0 /* MIUFileAnalyzer.m */; };
+		776A283E1DEC6BFB005F9BAE /* MIUProjectsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 776A283D1DEC6BFB005F9BAE /* MIUProjectsManager.m */; };
+		776A28431DEC6C0F005F9BAE /* MIUFilesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 776A28421DEC6C0F005F9BAE /* MIUFilesManager.m */; };
+		776A28451DEC8625005F9BAE /* run_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 776A28441DEC8625005F9BAE /* run_button.png */; };
+		776EE8BA1DEED2760048E0D2 /* analyze_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 776EE8B91DEED2760048E0D2 /* analyze_icon.png */; };
+		777B99BA1DEC40FA00BD92FD /* Pathes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777B99B91DEC40FA00BD92FD /* Pathes.storyboard */; };
+		777E2ED31DF1830F00164435 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777E2ED21DF1830F00164435 /* CoreData.framework */; };
+		777E2ED61DF18E7B00164435 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 777E2ED41DF18E7B00164435 /* Model.xcdatamodeld */; };
+		875D5EB91E656C6700B72AAF /* MIUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EB81E656C6700B72AAF /* MIUTests.m */; };
+		875D5ECC1E656CDF00B72AAF /* MIUEnumScanerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EBF1E656CDF00B72AAF /* MIUEnumScanerTests.m */; };
+		875D5ECD1E656CDF00B72AAF /* MIUClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC01E656CDF00B72AAF /* MIUClassTests.m */; };
+		875D5ECE1E656CDF00B72AAF /* MIUIntefaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC11E656CDF00B72AAF /* MIUIntefaceTests.m */; };
+		875D5ECF1E656CDF00B72AAF /* MIUInterfacesScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC21E656CDF00B72AAF /* MIUInterfacesScannerTests.m */; };
+		875D5ED01E656CDF00B72AAF /* MIUPropertiesScanerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC31E656CDF00B72AAF /* MIUPropertiesScanerTests.m */; };
+		875D5ED11E656CDF00B72AAF /* MIUPropertyScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC41E656CDF00B72AAF /* MIUPropertyScannerTests.m */; };
+		875D5ED21E656CDF00B72AAF /* MIUPropertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC51E656CDF00B72AAF /* MIUPropertyTests.m */; };
+		875D5ED31E656CDF00B72AAF /* MIUProtocolConfiguratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC61E656CDF00B72AAF /* MIUProtocolConfiguratorTests.m */; };
+		875D5ED41E656CDF00B72AAF /* MIUTestObjectsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5EC91E656CDF00B72AAF /* MIUTestObjectsFactory.m */; };
+		875D5ED51E656CDF00B72AAF /* ProtocolScannerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 875D5ECB1E656CDF00B72AAF /* ProtocolScannerTest.m */; };
+		875D5ED61E656DAF00B72AAF /* MIUProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE511DDDF96F00BDB061 /* MIUProperty.m */; };
+		875D5ED71E656DC400B72AAF /* MIUEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE481DDDF96F00BDB061 /* MIUEnum.m */; };
+		875D5ED81E656DCF00B72AAF /* MIUEnumsScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE5B1DDDF96F00BDB061 /* MIUEnumsScanner.m */; };
+		875D5ED91E656DE400B72AAF /* MIUClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE451DDDF96F00BDB061 /* MIUClass.m */; };
+		875D5EDA1E656DF800B72AAF /* MIUInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE4E1DDDF96F00BDB061 /* MIUInterface.m */; };
+		875D5EDB1E656E0D00B72AAF /* MIUInterfacesScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE641DDDF96F00BDB061 /* MIUInterfacesScanner.m */; };
+		875D5EDC1E656E2300B72AAF /* MIUPropertiesScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE671DDDF96F00BDB061 /* MIUPropertiesScanner.m */; };
+		875D5EDD1E656E2F00B72AAF /* MIUPropertyScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE6A1DDDF96F00BDB061 /* MIUPropertyScanner.m */; };
+		875D5EDE1E656E4800B72AAF /* MIUProtocolConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE571DDDF96F00BDB061 /* MIUProtocolConfigurator.m */; };
+		875D5EDF1E656E5600B72AAF /* MIUProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE541DDDF96F00BDB061 /* MIUProtocol.m */; };
+		875D5EE01E656E6100B72AAF /* MIUProtocolsScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5040EE6D1DDDF96F00BDB061 /* MIUProtocolsScanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5024644A1DE330EE00454C84 /* NSColor+MIUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+MIUColor.m"; sourceTree = "<group>"; };
+		502464511DE3357000454C84 /* NSColor+MIUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+MIUColor.h"; sourceTree = "<group>"; };
+		5034409E1DF86BAC00A40E2C /* MIUWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUWindow.h; sourceTree = "<group>"; };
+		5034409F1DF86BAC00A40E2C /* MIUWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUWindow.m; sourceTree = "<group>"; };
+		503E54151DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProjectTableViewCell.h; sourceTree = "<group>"; };
+		503E54161DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProjectTableViewCell.m; sourceTree = "<group>"; };
+		5040EE1E1DDDAF6A00BDB061 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5040EE261DDDF96E00BDB061 /* MIUFileGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUFileGenerator.h; sourceTree = "<group>"; };
+		5040EE271DDDF96E00BDB061 /* MIUFileGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUFileGenerator.m; sourceTree = "<group>"; };
+		5040EE291DDDF96E00BDB061 /* MIUObjectsScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUObjectsScanner.h; sourceTree = "<group>"; };
+		5040EE2A1DDDF96F00BDB061 /* MIUObjectsScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUObjectsScanner.m; sourceTree = "<group>"; };
+		5040EE2D1DDDF96F00BDB061 /* MIUCopyWithZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUCopyWithZone.h; sourceTree = "<group>"; };
+		5040EE2E1DDDF96F00BDB061 /* MIUCopyWithZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUCopyWithZone.m; sourceTree = "<group>"; };
+		5040EE301DDDF96F00BDB061 /* MIUDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUDescription.h; sourceTree = "<group>"; };
+		5040EE311DDDF96F00BDB061 /* MIUDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUDescription.m; sourceTree = "<group>"; };
+		5040EE341DDDF96F00BDB061 /* MIUEncodeWithCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUEncodeWithCoder.h; sourceTree = "<group>"; };
+		5040EE351DDDF96F00BDB061 /* MIUEncodeWithCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUEncodeWithCoder.m; sourceTree = "<group>"; };
+		5040EE371DDDF96F00BDB061 /* MIUHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUHash.h; sourceTree = "<group>"; };
+		5040EE381DDDF96F00BDB061 /* MIUHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUHash.m; sourceTree = "<group>"; };
+		5040EE3A1DDDF96F00BDB061 /* MIUInitWithCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUInitWithCoder.h; sourceTree = "<group>"; };
+		5040EE3B1DDDF96F00BDB061 /* MIUInitWithCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUInitWithCoder.m; sourceTree = "<group>"; };
+		5040EE3D1DDDF96F00BDB061 /* MIUIsEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUIsEqual.h; sourceTree = "<group>"; };
+		5040EE3E1DDDF96F00BDB061 /* MIUIsEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUIsEqual.m; sourceTree = "<group>"; };
+		5040EE401DDDF96F00BDB061 /* MIUMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUMethod.h; sourceTree = "<group>"; };
+		5040EE411DDDF96F00BDB061 /* MIUMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUMethod.m; sourceTree = "<group>"; };
+		5040EE441DDDF96F00BDB061 /* MIUClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUClass.h; sourceTree = "<group>"; };
+		5040EE451DDDF96F00BDB061 /* MIUClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUClass.m; sourceTree = "<group>"; };
+		5040EE471DDDF96F00BDB061 /* MIUEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUEnum.h; sourceTree = "<group>"; };
+		5040EE481DDDF96F00BDB061 /* MIUEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUEnum.m; sourceTree = "<group>"; };
+		5040EE4A1DDDF96F00BDB061 /* MIUImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUImplementation.h; sourceTree = "<group>"; };
+		5040EE4B1DDDF96F00BDB061 /* MIUImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUImplementation.m; sourceTree = "<group>"; };
+		5040EE4D1DDDF96F00BDB061 /* MIUInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUInterface.h; sourceTree = "<group>"; };
+		5040EE4E1DDDF96F00BDB061 /* MIUInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUInterface.m; sourceTree = "<group>"; };
+		5040EE501DDDF96F00BDB061 /* MIUProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProperty.h; sourceTree = "<group>"; };
+		5040EE511DDDF96F00BDB061 /* MIUProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProperty.m; sourceTree = "<group>"; };
+		5040EE531DDDF96F00BDB061 /* MIUProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProtocol.h; sourceTree = "<group>"; };
+		5040EE541DDDF96F00BDB061 /* MIUProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProtocol.m; sourceTree = "<group>"; };
+		5040EE561DDDF96F00BDB061 /* MIUProtocolConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProtocolConfigurator.h; sourceTree = "<group>"; };
+		5040EE571DDDF96F00BDB061 /* MIUProtocolConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProtocolConfigurator.m; sourceTree = "<group>"; };
+		5040EE5A1DDDF96F00BDB061 /* MIUEnumsScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUEnumsScanner.h; sourceTree = "<group>"; };
+		5040EE5B1DDDF96F00BDB061 /* MIUEnumsScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUEnumsScanner.m; sourceTree = "<group>"; };
+		5040EE5D1DDDF96F00BDB061 /* MIUFilesScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUFilesScanner.h; sourceTree = "<group>"; };
+		5040EE5E1DDDF96F00BDB061 /* MIUFilesScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUFilesScanner.m; sourceTree = "<group>"; };
+		5040EE601DDDF96F00BDB061 /* MIUImplementationsScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUImplementationsScanner.h; sourceTree = "<group>"; };
+		5040EE611DDDF96F00BDB061 /* MIUImplementationsScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUImplementationsScanner.m; sourceTree = "<group>"; };
+		5040EE631DDDF96F00BDB061 /* MIUInterfacesScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUInterfacesScanner.h; sourceTree = "<group>"; };
+		5040EE641DDDF96F00BDB061 /* MIUInterfacesScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUInterfacesScanner.m; sourceTree = "<group>"; };
+		5040EE661DDDF96F00BDB061 /* MIUPropertiesScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUPropertiesScanner.h; sourceTree = "<group>"; };
+		5040EE671DDDF96F00BDB061 /* MIUPropertiesScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUPropertiesScanner.m; sourceTree = "<group>"; };
+		5040EE691DDDF96F00BDB061 /* MIUPropertyScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUPropertyScanner.h; sourceTree = "<group>"; };
+		5040EE6A1DDDF96F00BDB061 /* MIUPropertyScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUPropertyScanner.m; sourceTree = "<group>"; };
+		5040EE6C1DDDF96F00BDB061 /* MIUProtocolsScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProtocolsScanner.h; sourceTree = "<group>"; };
+		5040EE6D1DDDF96F00BDB061 /* MIUProtocolsScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProtocolsScanner.m; sourceTree = "<group>"; };
+		5040EE701DDDF96F00BDB061 /* MIUClassStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUClassStatistics.h; sourceTree = "<group>"; };
+		5040EE711DDDF96F00BDB061 /* MIUClassStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUClassStatistics.m; sourceTree = "<group>"; };
+		5040EE731DDDF96F00BDB061 /* MIUMethodStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUMethodStatistics.h; sourceTree = "<group>"; };
+		5040EE741DDDF96F00BDB061 /* MIUMethodStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUMethodStatistics.m; sourceTree = "<group>"; };
+		50455F761DC3350F000A4025 /* MIU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50455F7D1DC3350F000A4025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50455F821DC3350F000A4025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50455F871DC3350F000A4025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509C12051DD4A7F40046E652 /* NewProject.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewProject.storyboard; sourceTree = "<group>"; };
+		509C12071DD4A7F40046E652 /* MIUNewProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUNewProjectViewController.h; sourceTree = "<group>"; };
+		509C12081DD4A7F40046E652 /* MIUNewProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUNewProjectViewController.m; sourceTree = "<group>"; };
+		50B0AE771DCC7F2C009CA10C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50B0AE781DCC7F2C009CA10C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50B0AED11DCC7F2C009CA10C /* MIUFilesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUFilesDataSource.h; sourceTree = "<group>"; };
+		50B0AED21DCC7F2C009CA10C /* MIUFilesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUFilesDataSource.m; sourceTree = "<group>"; };
+		50B0AED41DCC7F2C009CA10C /* MIUResultDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUResultDataSource.h; sourceTree = "<group>"; };
+		50B0AED51DCC7F2C009CA10C /* MIUResultDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUResultDataSource.m; sourceTree = "<group>"; };
+		50B0AED71DCC7F2C009CA10C /* MIUPathesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUPathesViewController.h; sourceTree = "<group>"; };
+		50B0AED81DCC7F2C009CA10C /* MIUPathesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUPathesViewController.m; sourceTree = "<group>"; };
+		50B0AEF81DCC7F52009CA10C /* first_generation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_generation_icon.png; sourceTree = "<group>"; };
+		50B0AEF91DCC7F52009CA10C /* generate_with_warnings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = generate_with_warnings_icon.png; sourceTree = "<group>"; };
+		50B0AEFA1DCC7F52009CA10C /* not_changed_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_changed_icon.png; sourceTree = "<group>"; };
+		50B0AEFB1DCC7F52009CA10C /* regenerated_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regenerated_icon.png; sourceTree = "<group>"; };
+		50B0AEFC1DCC7F52009CA10C /* supported_by_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = supported_by_user.png; sourceTree = "<group>"; };
+		50B0AF041DCC813C009CA10C /* MIUProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProjectsViewController.h; sourceTree = "<group>"; };
+		50B0AF051DCC813C009CA10C /* MIUProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProjectsViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		50E1FF5F1DD47F4D003E5D06 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		50E1FF611DD47FF4003E5D06 /* add_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_btn.png; sourceTree = "<group>"; };
+		50E1FF621DD47FF4003E5D06 /* minus_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus_btn.png; sourceTree = "<group>"; };
+		50E1FF631DD47FF4003E5D06 /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_btn.png; sourceTree = "<group>"; };
+		50FBF70F1DCC9A88003BCCAF /* MIUProjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUProjectModel.h; sourceTree = "<group>"; };
+		50FBF7101DCC9A88003BCCAF /* MIUProjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProjectModel.m; sourceTree = "<group>"; };
+		7711F5FB1DEDA32200112061 /* run_button_miuCOlor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run_button_miuCOlor.png; sourceTree = "<group>"; };
+		776764991DF999EC006B6723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7767649A1DF999F7006B6723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7767649C1DF99A38006B6723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77686A021DF02B1F0012D3F0 /* MIUFileAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUFileAnalyzer.h; sourceTree = "<group>"; };
+		77686A031DF02B1F0012D3F0 /* MIUFileAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUFileAnalyzer.m; sourceTree = "<group>"; };
+		776A283C1DEC6BFB005F9BAE /* MIUProjectsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIUProjectsManager.h; path = AppMIU/Sources/Managers/DefaultsManager/MIUProjectsManager.h; sourceTree = SOURCE_ROOT; };
+		776A283D1DEC6BFB005F9BAE /* MIUProjectsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIUProjectsManager.m; path = AppMIU/Sources/Managers/DefaultsManager/MIUProjectsManager.m; sourceTree = SOURCE_ROOT; };
+		776A28411DEC6C0F005F9BAE /* MIUFilesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIUFilesManager.h; path = AppMIU/Sources/Managers/FilesManager/MIUFilesManager.h; sourceTree = SOURCE_ROOT; };
+		776A28421DEC6C0F005F9BAE /* MIUFilesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIUFilesManager.m; path = AppMIU/Sources/Managers/FilesManager/MIUFilesManager.m; sourceTree = SOURCE_ROOT; };
+		776A28441DEC8625005F9BAE /* run_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run_button.png; sourceTree = "<group>"; };
+		776A28461DEC90D2005F9BAE /* ResultStateEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultStateEnum.h; sourceTree = "<group>"; };
+		776EE8B91DEED2760048E0D2 /* analyze_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = analyze_icon.png; sourceTree = "<group>"; };
+		777B99B91DEC40FA00BD92FD /* Pathes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pathes.storyboard; sourceTree = "<group>"; };
+		777E2ED21DF1830F00164435 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		777E2ED51DF18E7B00164435 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		875D5EB61E656C6700B72AAF /* MIUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		875D5EB81E656C6700B72AAF /* MIUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIUTests.m; sourceTree = "<group>"; };
+		875D5EBA1E656C6700B72AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875D5EBF1E656CDF00B72AAF /* MIUEnumScanerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUEnumScanerTests.m; sourceTree = "<group>"; };
+		875D5EC01E656CDF00B72AAF /* MIUClassTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUClassTests.m; sourceTree = "<group>"; };
+		875D5EC11E656CDF00B72AAF /* MIUIntefaceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUIntefaceTests.m; sourceTree = "<group>"; };
+		875D5EC21E656CDF00B72AAF /* MIUInterfacesScannerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUInterfacesScannerTests.m; sourceTree = "<group>"; };
+		875D5EC31E656CDF00B72AAF /* MIUPropertiesScanerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUPropertiesScanerTests.m; sourceTree = "<group>"; };
+		875D5EC41E656CDF00B72AAF /* MIUPropertyScannerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUPropertyScannerTests.m; sourceTree = "<group>"; };
+		875D5EC51E656CDF00B72AAF /* MIUPropertyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUPropertyTests.m; sourceTree = "<group>"; };
+		875D5EC61E656CDF00B72AAF /* MIUProtocolConfiguratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUProtocolConfiguratorTests.m; sourceTree = "<group>"; };
+		875D5EC81E656CDF00B72AAF /* MIUTestObjectsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIUTestObjectsFactory.h; sourceTree = "<group>"; };
+		875D5EC91E656CDF00B72AAF /* MIUTestObjectsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIUTestObjectsFactory.m; sourceTree = "<group>"; };
+		875D5ECB1E656CDF00B72AAF /* ProtocolScannerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolScannerTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50455F731DC3350F000A4025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777E2ED31DF1830F00164435 /* CoreData.framework in Frameworks */,
+				5040EE1F1DDDAF6A00BDB061 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875D5EB31E656C6700B72AAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502464481DE330EE00454C84 /* NSColor+MIUColor */ = {
+			isa = PBXGroup;
+			children = (
+				502464511DE3357000454C84 /* NSColor+MIUColor.h */,
+				5024644A1DE330EE00454C84 /* NSColor+MIUColor.m */,
+			);
+			path = "NSColor+MIUColor";
+			sourceTree = "<group>";
+		};
+		503354291DC3AA95002EF5DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AEF71DCC7F52009CA10C /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5034409D1DF86BAC00A40E2C /* MIUWindow */ = {
+			isa = PBXGroup;
+			children = (
+				5034409E1DF86BAC00A40E2C /* MIUWindow.h */,
+				5034409F1DF86BAC00A40E2C /* MIUWindow.m */,
+			);
+			path = MIUWindow;
+			sourceTree = "<group>";
+		};
+		503E54131DDEEFFF00A1AFD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5034409D1DF86BAC00A40E2C /* MIUWindow */,
+				503E54141DDEEFFF00A1AFD0 /* Project Table View Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		503E54141DDEEFFF00A1AFD0 /* Project Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				503E54151DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.h */,
+				503E54161DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.m */,
+			);
+			path = "Project Table View Cell";
+			sourceTree = "<group>";
+		};
+		5040EE1D1DDDAF6A00BDB061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777E2ED21DF1830F00164435 /* CoreData.framework */,
+				5040EE1E1DDDAF6A00BDB061 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5040EE231DDDF96E00BDB061 /* MIUSource */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE241DDDF96E00BDB061 /* MIUManagers */,
+				5040EE2B1DDDF96F00BDB061 /* MIUMethods */,
+				5040EE421DDDF96F00BDB061 /* MIUModel */,
+				5040EE551DDDF96F00BDB061 /* MIUProtocolConfigurator */,
+				5040EE581DDDF96F00BDB061 /* MIUScanners */,
+				5040EE6E1DDDF96F00BDB061 /* MIUStatistics */,
+			);
+			path = MIUSource;
+			sourceTree = "<group>";
+		};
+		5040EE241DDDF96E00BDB061 /* MIUManagers */ = {
+			isa = PBXGroup;
+			children = (
+				77686A011DF029D50012D3F0 /* MIUFileAnalyzer */,
+				5040EE251DDDF96E00BDB061 /* MIUFileGenerator */,
+				5040EE281DDDF96E00BDB061 /* MIUObjectsScanner */,
+			);
+			path = MIUManagers;
+			sourceTree = "<group>";
+		};
+		5040EE251DDDF96E00BDB061 /* MIUFileGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE261DDDF96E00BDB061 /* MIUFileGenerator.h */,
+				5040EE271DDDF96E00BDB061 /* MIUFileGenerator.m */,
+			);
+			path = MIUFileGenerator;
+			sourceTree = "<group>";
+		};
+		5040EE281DDDF96E00BDB061 /* MIUObjectsScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE291DDDF96E00BDB061 /* MIUObjectsScanner.h */,
+				5040EE2A1DDDF96F00BDB061 /* MIUObjectsScanner.m */,
+			);
+			path = MIUObjectsScanner;
+			sourceTree = "<group>";
+		};
+		5040EE2B1DDDF96F00BDB061 /* MIUMethods */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE2C1DDDF96F00BDB061 /* MIUCopyWithZone */,
+				5040EE2F1DDDF96F00BDB061 /* MIUDescriptions */,
+				5040EE321DDDF96F00BDB061 /* MIUEncodeWithCoder */,
+				5040EE361DDDF96F00BDB061 /* MIUHash */,
+				5040EE391DDDF96F00BDB061 /* MIUInitWithCoder */,
+				5040EE3C1DDDF96F00BDB061 /* MIUIsEqual */,
+				5040EE3F1DDDF96F00BDB061 /* MIUMethod */,
+			);
+			path = MIUMethods;
+			sourceTree = "<group>";
+		};
+		5040EE2C1DDDF96F00BDB061 /* MIUCopyWithZone */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE2D1DDDF96F00BDB061 /* MIUCopyWithZone.h */,
+				5040EE2E1DDDF96F00BDB061 /* MIUCopyWithZone.m */,
+			);
+			path = MIUCopyWithZone;
+			sourceTree = "<group>";
+		};
+		5040EE2F1DDDF96F00BDB061 /* MIUDescriptions */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE301DDDF96F00BDB061 /* MIUDescription.h */,
+				5040EE311DDDF96F00BDB061 /* MIUDescription.m */,
+			);
+			path = MIUDescriptions;
+			sourceTree = "<group>";
+		};
+		5040EE321DDDF96F00BDB061 /* MIUEncodeWithCoder */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE341DDDF96F00BDB061 /* MIUEncodeWithCoder.h */,
+				5040EE351DDDF96F00BDB061 /* MIUEncodeWithCoder.m */,
+			);
+			path = MIUEncodeWithCoder;
+			sourceTree = "<group>";
+		};
+		5040EE361DDDF96F00BDB061 /* MIUHash */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE371DDDF96F00BDB061 /* MIUHash.h */,
+				5040EE381DDDF96F00BDB061 /* MIUHash.m */,
+			);
+			path = MIUHash;
+			sourceTree = "<group>";
+		};
+		5040EE391DDDF96F00BDB061 /* MIUInitWithCoder */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE3A1DDDF96F00BDB061 /* MIUInitWithCoder.h */,
+				5040EE3B1DDDF96F00BDB061 /* MIUInitWithCoder.m */,
+			);
+			path = MIUInitWithCoder;
+			sourceTree = "<group>";
+		};
+		5040EE3C1DDDF96F00BDB061 /* MIUIsEqual */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE3D1DDDF96F00BDB061 /* MIUIsEqual.h */,
+				5040EE3E1DDDF96F00BDB061 /* MIUIsEqual.m */,
+			);
+			path = MIUIsEqual;
+			sourceTree = "<group>";
+		};
+		5040EE3F1DDDF96F00BDB061 /* MIUMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE401DDDF96F00BDB061 /* MIUMethod.h */,
+				5040EE411DDDF96F00BDB061 /* MIUMethod.m */,
+			);
+			path = MIUMethod;
+			sourceTree = "<group>";
+		};
+		5040EE421DDDF96F00BDB061 /* MIUModel */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE431DDDF96F00BDB061 /* MIUClass */,
+				5040EE461DDDF96F00BDB061 /* MIUEnum */,
+				5040EE491DDDF96F00BDB061 /* MIUImplementation */,
+				5040EE4C1DDDF96F00BDB061 /* MIUInterface */,
+				5040EE4F1DDDF96F00BDB061 /* MIUProperty */,
+				5040EE521DDDF96F00BDB061 /* MIUProtocol */,
+			);
+			path = MIUModel;
+			sourceTree = "<group>";
+		};
+		5040EE431DDDF96F00BDB061 /* MIUClass */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE441DDDF96F00BDB061 /* MIUClass.h */,
+				5040EE451DDDF96F00BDB061 /* MIUClass.m */,
+			);
+			path = MIUClass;
+			sourceTree = "<group>";
+		};
+		5040EE461DDDF96F00BDB061 /* MIUEnum */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE471DDDF96F00BDB061 /* MIUEnum.h */,
+				5040EE481DDDF96F00BDB061 /* MIUEnum.m */,
+			);
+			path = MIUEnum;
+			sourceTree = "<group>";
+		};
+		5040EE491DDDF96F00BDB061 /* MIUImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE4A1DDDF96F00BDB061 /* MIUImplementation.h */,
+				5040EE4B1DDDF96F00BDB061 /* MIUImplementation.m */,
+			);
+			path = MIUImplementation;
+			sourceTree = "<group>";
+		};
+		5040EE4C1DDDF96F00BDB061 /* MIUInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE4D1DDDF96F00BDB061 /* MIUInterface.h */,
+				5040EE4E1DDDF96F00BDB061 /* MIUInterface.m */,
+			);
+			path = MIUInterface;
+			sourceTree = "<group>";
+		};
+		5040EE4F1DDDF96F00BDB061 /* MIUProperty */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE501DDDF96F00BDB061 /* MIUProperty.h */,
+				5040EE511DDDF96F00BDB061 /* MIUProperty.m */,
+			);
+			path = MIUProperty;
+			sourceTree = "<group>";
+		};
+		5040EE521DDDF96F00BDB061 /* MIUProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE531DDDF96F00BDB061 /* MIUProtocol.h */,
+				5040EE541DDDF96F00BDB061 /* MIUProtocol.m */,
+			);
+			path = MIUProtocol;
+			sourceTree = "<group>";
+		};
+		5040EE551DDDF96F00BDB061 /* MIUProtocolConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE561DDDF96F00BDB061 /* MIUProtocolConfigurator.h */,
+				5040EE571DDDF96F00BDB061 /* MIUProtocolConfigurator.m */,
+			);
+			path = MIUProtocolConfigurator;
+			sourceTree = "<group>";
+		};
+		5040EE581DDDF96F00BDB061 /* MIUScanners */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE591DDDF96F00BDB061 /* MIUEnumsScanner */,
+				5040EE5C1DDDF96F00BDB061 /* MIUFilesScanner */,
+				5040EE5F1DDDF96F00BDB061 /* MIUImplementationScanner */,
+				5040EE621DDDF96F00BDB061 /* MIUInterfacesScanner */,
+				5040EE651DDDF96F00BDB061 /* MIUPropertiesScanner */,
+				5040EE681DDDF96F00BDB061 /* MIUPropertyScanner */,
+				5040EE6B1DDDF96F00BDB061 /* MIUProtocolsScanner */,
+			);
+			path = MIUScanners;
+			sourceTree = "<group>";
+		};
+		5040EE591DDDF96F00BDB061 /* MIUEnumsScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE5A1DDDF96F00BDB061 /* MIUEnumsScanner.h */,
+				5040EE5B1DDDF96F00BDB061 /* MIUEnumsScanner.m */,
+			);
+			path = MIUEnumsScanner;
+			sourceTree = "<group>";
+		};
+		5040EE5C1DDDF96F00BDB061 /* MIUFilesScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE5D1DDDF96F00BDB061 /* MIUFilesScanner.h */,
+				5040EE5E1DDDF96F00BDB061 /* MIUFilesScanner.m */,
+			);
+			path = MIUFilesScanner;
+			sourceTree = "<group>";
+		};
+		5040EE5F1DDDF96F00BDB061 /* MIUImplementationScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE601DDDF96F00BDB061 /* MIUImplementationsScanner.h */,
+				5040EE611DDDF96F00BDB061 /* MIUImplementationsScanner.m */,
+			);
+			path = MIUImplementationScanner;
+			sourceTree = "<group>";
+		};
+		5040EE621DDDF96F00BDB061 /* MIUInterfacesScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE631DDDF96F00BDB061 /* MIUInterfacesScanner.h */,
+				5040EE641DDDF96F00BDB061 /* MIUInterfacesScanner.m */,
+			);
+			path = MIUInterfacesScanner;
+			sourceTree = "<group>";
+		};
+		5040EE651DDDF96F00BDB061 /* MIUPropertiesScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE661DDDF96F00BDB061 /* MIUPropertiesScanner.h */,
+				5040EE671DDDF96F00BDB061 /* MIUPropertiesScanner.m */,
+			);
+			path = MIUPropertiesScanner;
+			sourceTree = "<group>";
+		};
+		5040EE681DDDF96F00BDB061 /* MIUPropertyScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE691DDDF96F00BDB061 /* MIUPropertyScanner.h */,
+				5040EE6A1DDDF96F00BDB061 /* MIUPropertyScanner.m */,
+			);
+			path = MIUPropertyScanner;
+			sourceTree = "<group>";
+		};
+		5040EE6B1DDDF96F00BDB061 /* MIUProtocolsScanner */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE6C1DDDF96F00BDB061 /* MIUProtocolsScanner.h */,
+				5040EE6D1DDDF96F00BDB061 /* MIUProtocolsScanner.m */,
+			);
+			path = MIUProtocolsScanner;
+			sourceTree = "<group>";
+		};
+		5040EE6E1DDDF96F00BDB061 /* MIUStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE6F1DDDF96F00BDB061 /* MIUClassStatistics */,
+				5040EE721DDDF96F00BDB061 /* MIUMethodStatistics */,
+			);
+			path = MIUStatistics;
+			sourceTree = "<group>";
+		};
+		5040EE6F1DDDF96F00BDB061 /* MIUClassStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE701DDDF96F00BDB061 /* MIUClassStatistics.h */,
+				5040EE711DDDF96F00BDB061 /* MIUClassStatistics.m */,
+			);
+			path = MIUClassStatistics;
+			sourceTree = "<group>";
+		};
+		5040EE721DDDF96F00BDB061 /* MIUMethodStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				5040EE731DDDF96F00BDB061 /* MIUMethodStatistics.h */,
+				5040EE741DDDF96F00BDB061 /* MIUMethodStatistics.m */,
+			);
+			path = MIUMethodStatistics;
+			sourceTree = "<group>";
+		};
+		50455F6D1DC3350F000A4025 = {
+			isa = PBXGroup;
+			children = (
+				50455F781DC3350F000A4025 /* AppMIU */,
+				875D5EB71E656C6700B72AAF /* MIUTests */,
+				50455F771DC3350F000A4025 /* Products */,
+				5040EE1D1DDDAF6A00BDB061 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50455F771DC3350F000A4025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50455F761DC3350F000A4025 /* MIU.app */,
+				875D5EB61E656C6700B72AAF /* MIUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50455F781DC3350F000A4025 /* AppMIU */ = {
+			isa = PBXGroup;
+			children = (
+				503354291DC3AA95002EF5DD /* Resources */,
+				50B0AE751DCC7F2C009CA10C /* Sources */,
+				50455F7C1DC3350F000A4025 /* Supporting Files */,
+			);
+			path = AppMIU;
+			sourceTree = "<group>";
+		};
+		50455F7C1DC3350F000A4025 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50455F821DC3350F000A4025 /* Assets.xcassets */,
+				50455F841DC3350F000A4025 /* Main.storyboard */,
+				50455F871DC3350F000A4025 /* Info.plist */,
+				50455F7D1DC3350F000A4025 /* main.m */,
+				776A28461DEC90D2005F9BAE /* ResultStateEnum.h */,
+				777E2ED41DF18E7B00164435 /* Model.xcdatamodeld */,
+				7767649D1DF99A38006B6723 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5096DE371DEC5F89002000DE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5096DE381DEC5F89002000DE /* PRojectManager */,
+				5096DE3B1DEC5F89002000DE /* FilesManager */,
+			);
+			name = Managers;
+			path = ../../../appmiu/AppMIU/Sources/Managers;
+			sourceTree = "<group>";
+		};
+		5096DE381DEC5F89002000DE /* PRojectManager */ = {
+			isa = PBXGroup;
+			children = (
+				776A283C1DEC6BFB005F9BAE /* MIUProjectsManager.h */,
+				776A283D1DEC6BFB005F9BAE /* MIUProjectsManager.m */,
+			);
+			name = PRojectManager;
+			path = DefaultsManager;
+			sourceTree = "<group>";
+		};
+		5096DE3B1DEC5F89002000DE /* FilesManager */ = {
+			isa = PBXGroup;
+			children = (
+				776A28411DEC6C0F005F9BAE /* MIUFilesManager.h */,
+				776A28421DEC6C0F005F9BAE /* MIUFilesManager.m */,
+			);
+			path = FilesManager;
+			sourceTree = "<group>";
+		};
+		509C11FA1DD495470046E652 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				777B99B91DEC40FA00BD92FD /* Pathes.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		509C12031DD4A7F40046E652 /* New Project Screen */ = {
+			isa = PBXGroup;
+			children = (
+				509C12041DD4A7F40046E652 /* Storyboard */,
+				509C12061DD4A7F40046E652 /* View Controller */,
+			);
+			path = "New Project Screen";
+			sourceTree = "<group>";
+		};
+		509C12041DD4A7F40046E652 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				509C12051DD4A7F40046E652 /* NewProject.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		509C12061DD4A7F40046E652 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				509C12071DD4A7F40046E652 /* MIUNewProjectViewController.h */,
+				509C12081DD4A7F40046E652 /* MIUNewProjectViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		50B0AE751DCC7F2C009CA10C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5096DE371DEC5F89002000DE /* Managers */,
+				502464481DE330EE00454C84 /* NSColor+MIUColor */,
+				5040EE231DDDF96E00BDB061 /* MIUSource */,
+				50B0AE761DCC7F2C009CA10C /* AppDelegate */,
+				50FBF70D1DCC9A88003BCCAF /* Models */,
+				50B0AF021DCC810E009CA10C /* Projects Screen */,
+				50B0AECF1DCC7F2C009CA10C /* Pathes Screen */,
+				509C12031DD4A7F40046E652 /* New Project Screen */,
+			);
+			name = Sources;
+			path = AppMIU/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		50B0AE761DCC7F2C009CA10C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AE771DCC7F2C009CA10C /* AppDelegate.h */,
+				50B0AE781DCC7F2C009CA10C /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		50B0AECF1DCC7F2C009CA10C /* Pathes Screen */ = {
+			isa = PBXGroup;
+			children = (
+				509C11FA1DD495470046E652 /* Storyboard */,
+				50B0AED61DCC7F2C009CA10C /* View Controller */,
+				50B0AED01DCC7F2C009CA10C /* Pathes DataSource */,
+				50B0AED31DCC7F2C009CA10C /* Result DataSource */,
+			);
+			path = "Pathes Screen";
+			sourceTree = "<group>";
+		};
+		50B0AED01DCC7F2C009CA10C /* Pathes DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AED11DCC7F2C009CA10C /* MIUFilesDataSource.h */,
+				50B0AED21DCC7F2C009CA10C /* MIUFilesDataSource.m */,
+			);
+			path = "Pathes DataSource";
+			sourceTree = "<group>";
+		};
+		50B0AED31DCC7F2C009CA10C /* Result DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AED41DCC7F2C009CA10C /* MIUResultDataSource.h */,
+				50B0AED51DCC7F2C009CA10C /* MIUResultDataSource.m */,
+			);
+			path = "Result DataSource";
+			sourceTree = "<group>";
+		};
+		50B0AED61DCC7F2C009CA10C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AED71DCC7F2C009CA10C /* MIUPathesViewController.h */,
+				50B0AED81DCC7F2C009CA10C /* MIUPathesViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		50B0AEF71DCC7F52009CA10C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				776EE8B91DEED2760048E0D2 /* analyze_icon.png */,
+				7711F5FB1DEDA32200112061 /* run_button_miuCOlor.png */,
+				776A28441DEC8625005F9BAE /* run_button.png */,
+				50B0AEF81DCC7F52009CA10C /* first_generation_icon.png */,
+				50B0AEF91DCC7F52009CA10C /* generate_with_warnings_icon.png */,
+				50B0AEFA1DCC7F52009CA10C /* not_changed_icon.png */,
+				50B0AEFB1DCC7F52009CA10C /* regenerated_icon.png */,
+				50B0AEFC1DCC7F52009CA10C /* supported_by_user.png */,
+				50E1FF5F1DD47F4D003E5D06 /* icon.png */,
+				50E1FF611DD47FF4003E5D06 /* add_btn.png */,
+				50E1FF621DD47FF4003E5D06 /* minus_btn.png */,
+				50E1FF631DD47FF4003E5D06 /* play_btn.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		50B0AF021DCC810E009CA10C /* Projects Screen */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AF031DCC8121009CA10C /* View Controller */,
+				503E54131DDEEFFF00A1AFD0 /* Views */,
+			);
+			name = "Projects Screen";
+			path = "AppMIU/Sources/Projects Screen";
+			sourceTree = SOURCE_ROOT;
+		};
+		50B0AF031DCC8121009CA10C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50B0AF041DCC813C009CA10C /* MIUProjectsViewController.h */,
+				50B0AF051DCC813C009CA10C /* MIUProjectsViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		50FBF70D1DCC9A88003BCCAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50FBF70E1DCC9A88003BCCAF /* Project Model */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50FBF70E1DCC9A88003BCCAF /* Project Model */ = {
+			isa = PBXGroup;
+			children = (
+				50FBF70F1DCC9A88003BCCAF /* MIUProjectModel.h */,
+				50FBF7101DCC9A88003BCCAF /* MIUProjectModel.m */,
+			);
+			path = "Project Model";
+			sourceTree = "<group>";
+		};
+		77686A011DF029D50012D3F0 /* MIUFileAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				77686A021DF02B1F0012D3F0 /* MIUFileAnalyzer.h */,
+				77686A031DF02B1F0012D3F0 /* MIUFileAnalyzer.m */,
+			);
+			name = MIUFileAnalyzer;
+			sourceTree = "<group>";
+		};
+		875D5EB71E656C6700B72AAF /* MIUTests */ = {
+			isa = PBXGroup;
+			children = (
+				875D5EBE1E656CDF00B72AAF /* EnumTests */,
+				875D5EC01E656CDF00B72AAF /* MIUClassTests.m */,
+				875D5EC11E656CDF00B72AAF /* MIUIntefaceTests.m */,
+				875D5EC21E656CDF00B72AAF /* MIUInterfacesScannerTests.m */,
+				875D5EC31E656CDF00B72AAF /* MIUPropertiesScanerTests.m */,
+				875D5EC41E656CDF00B72AAF /* MIUPropertyScannerTests.m */,
+				875D5EC51E656CDF00B72AAF /* MIUPropertyTests.m */,
+				875D5EC61E656CDF00B72AAF /* MIUProtocolConfiguratorTests.m */,
+				875D5EC71E656CDF00B72AAF /* ObjectsForTestsFactory */,
+				875D5ECA1E656CDF00B72AAF /* ProtocolTesting */,
+				875D5EB81E656C6700B72AAF /* MIUTests.m */,
+				875D5EBA1E656C6700B72AAF /* Info.plist */,
+			);
+			path = MIUTests;
+			sourceTree = "<group>";
+		};
+		875D5EBE1E656CDF00B72AAF /* EnumTests */ = {
+			isa = PBXGroup;
+			children = (
+				875D5EBF1E656CDF00B72AAF /* MIUEnumScanerTests.m */,
+			);
+			path = EnumTests;
+			sourceTree = "<group>";
+		};
+		875D5EC71E656CDF00B72AAF /* ObjectsForTestsFactory */ = {
+			isa = PBXGroup;
+			children = (
+				875D5EC81E656CDF00B72AAF /* MIUTestObjectsFactory.h */,
+				875D5EC91E656CDF00B72AAF /* MIUTestObjectsFactory.m */,
+			);
+			path = ObjectsForTestsFactory;
+			sourceTree = "<group>";
+		};
+		875D5ECA1E656CDF00B72AAF /* ProtocolTesting */ = {
+			isa = PBXGroup;
+			children = (
+				875D5ECB1E656CDF00B72AAF /* ProtocolScannerTest.m */,
+			);
+			path = ProtocolTesting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50455F751DC3350F000A4025 /* MIU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50455F8A1DC3350F000A4025 /* Build configuration list for PBXNativeTarget "MIU" */;
+			buildPhases = (
+				50455F721DC3350F000A4025 /* Sources */,
+				50455F731DC3350F000A4025 /* Frameworks */,
+				50455F741DC3350F000A4025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIU;
+			productName = AppMIU;
+			productReference = 50455F761DC3350F000A4025 /* MIU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		875D5EB51E656C6700B72AAF /* MIUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875D5EBD1E656C6700B72AAF /* Build configuration list for PBXNativeTarget "MIUTests" */;
+			buildPhases = (
+				875D5EB21E656C6700B72AAF /* Sources */,
+				875D5EB31E656C6700B72AAF /* Frameworks */,
+				875D5EB41E656C6700B72AAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIUTests;
+			productName = MIUTests;
+			productReference = 875D5EB61E656C6700B72AAF /* MIUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50455F6E1DC3350F000A4025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = NIX;
+				TargetAttributes = {
+					50455F751DC3350F000A4025 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					875D5EB51E656C6700B72AAF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9A265LSHM3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50455F711DC3350F000A4025 /* Build configuration list for PBXProject "MIU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 50455F6D1DC3350F000A4025;
+			productRefGroup = 50455F771DC3350F000A4025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50455F751DC3350F000A4025 /* MIU */,
+				875D5EB51E656C6700B72AAF /* MIUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50455F741DC3350F000A4025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7711F5FA1DED8D6700112061 /* Main.storyboard in Resources */,
+				50B0AEFF1DCC7F52009CA10C /* not_changed_icon.png in Resources */,
+				776A28451DEC8625005F9BAE /* run_button.png in Resources */,
+				50B0AF011DCC7F52009CA10C /* supported_by_user.png in Resources */,
+				776EE8BA1DEED2760048E0D2 /* analyze_icon.png in Resources */,
+				50455F831DC3350F000A4025 /* Assets.xcassets in Resources */,
+				777B99BA1DEC40FA00BD92FD /* Pathes.storyboard in Resources */,
+				50B0AEFD1DCC7F52009CA10C /* first_generation_icon.png in Resources */,
+				509C12091DD4A7F40046E652 /* NewProject.storyboard in Resources */,
+				50E1FF601DD47F4D003E5D06 /* icon.png in Resources */,
+				50E1FF651DD47FF4003E5D06 /* minus_btn.png in Resources */,
+				50B0AF001DCC7F52009CA10C /* regenerated_icon.png in Resources */,
+				50E1FF661DD47FF4003E5D06 /* play_btn.png in Resources */,
+				7711F5FC1DEDA32200112061 /* run_button_miuCOlor.png in Resources */,
+				7767649B1DF99A38006B6723 /* Localizable.strings in Resources */,
+				50E1FF641DD47FF4003E5D06 /* add_btn.png in Resources */,
+				50B0AEFE1DCC7F52009CA10C /* generate_with_warnings_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875D5EB41E656C6700B72AAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50455F721DC3350F000A4025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B0AEF41DCC7F2C009CA10C /* MIUFilesDataSource.m in Sources */,
+				5040EE7B1DDDF96F00BDB061 /* MIUHash.m in Sources */,
+				50B0AF061DCC813C009CA10C /* MIUProjectsViewController.m in Sources */,
+				5040EE771DDDF96F00BDB061 /* MIUCopyWithZone.m in Sources */,
+				5040EE7E1DDDF96F00BDB061 /* MIUMethod.m in Sources */,
+				5040EE781DDDF96F00BDB061 /* MIUDescription.m in Sources */,
+				5040EE7D1DDDF96F00BDB061 /* MIUIsEqual.m in Sources */,
+				5040EE821DDDF96F00BDB061 /* MIUInterface.m in Sources */,
+				776A28431DEC6C0F005F9BAE /* MIUFilesManager.m in Sources */,
+				5040EE811DDDF96F00BDB061 /* MIUImplementation.m in Sources */,
+				5040EE7C1DDDF96F00BDB061 /* MIUInitWithCoder.m in Sources */,
+				777E2ED61DF18E7B00164435 /* Model.xcdatamodeld in Sources */,
+				5040EE8C1DDDF96F00BDB061 /* MIUProtocolsScanner.m in Sources */,
+				776A283E1DEC6BFB005F9BAE /* MIUProjectsManager.m in Sources */,
+				5040EE8E1DDDF96F00BDB061 /* MIUMethodStatistics.m in Sources */,
+				5040EE801DDDF96F00BDB061 /* MIUEnum.m in Sources */,
+				5024644C1DE334F100454C84 /* NSColor+MIUColor.m in Sources */,
+				5040EE831DDDF96F00BDB061 /* MIUProperty.m in Sources */,
+				5040EE881DDDF96F00BDB061 /* MIUImplementationsScanner.m in Sources */,
+				5040EE8D1DDDF96F00BDB061 /* MIUClassStatistics.m in Sources */,
+				5040EE891DDDF96F00BDB061 /* MIUInterfacesScanner.m in Sources */,
+				509C120A1DD4A7F40046E652 /* MIUNewProjectViewController.m in Sources */,
+				77686A041DF02B1F0012D3F0 /* MIUFileAnalyzer.m in Sources */,
+				50B0AEF61DCC7F2C009CA10C /* MIUPathesViewController.m in Sources */,
+				503E54171DDEEFFF00A1AFD0 /* MIUProjectTableViewCell.m in Sources */,
+				5040EE861DDDF96F00BDB061 /* MIUEnumsScanner.m in Sources */,
+				50B0AED91DCC7F2C009CA10C /* AppDelegate.m in Sources */,
+				5040EE851DDDF96F00BDB061 /* MIUProtocolConfigurator.m in Sources */,
+				50B0AEF51DCC7F2C009CA10C /* MIUResultDataSource.m in Sources */,
+				50455F7E1DC3350F000A4025 /* main.m in Sources */,
+				50FBF7111DCC9A88003BCCAF /* MIUProjectModel.m in Sources */,
+				5040EE7F1DDDF96F00BDB061 /* MIUClass.m in Sources */,
+				5040EE871DDDF96F00BDB061 /* MIUFilesScanner.m in Sources */,
+				503440A01DF86BAC00A40E2C /* MIUWindow.m in Sources */,
+				5040EE8A1DDDF96F00BDB061 /* MIUPropertiesScanner.m in Sources */,
+				5040EE761DDDF96F00BDB061 /* MIUObjectsScanner.m in Sources */,
+				5040EE841DDDF96F00BDB061 /* MIUProtocol.m in Sources */,
+				5040EE751DDDF96F00BDB061 /* MIUFileGenerator.m in Sources */,
+				5040EE7A1DDDF96F00BDB061 /* MIUEncodeWithCoder.m in Sources */,
+				5040EE8B1DDDF96F00BDB061 /* MIUPropertyScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875D5EB21E656C6700B72AAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875D5EE01E656E6100B72AAF /* MIUProtocolsScanner.m in Sources */,
+				875D5ED61E656DAF00B72AAF /* MIUProperty.m in Sources */,
+				875D5ED21E656CDF00B72AAF /* MIUPropertyTests.m in Sources */,
+				875D5ED51E656CDF00B72AAF /* ProtocolScannerTest.m in Sources */,
+				875D5EDF1E656E5600B72AAF /* MIUProtocol.m in Sources */,
+				875D5ED01E656CDF00B72AAF /* MIUPropertiesScanerTests.m in Sources */,
+				875D5ECC1E656CDF00B72AAF /* MIUEnumScanerTests.m in Sources */,
+				875D5EDA1E656DF800B72AAF /* MIUInterface.m in Sources */,
+				875D5EDD1E656E2F00B72AAF /* MIUPropertyScanner.m in Sources */,
+				875D5ED81E656DCF00B72AAF /* MIUEnumsScanner.m in Sources */,
+				875D5EDC1E656E2300B72AAF /* MIUPropertiesScanner.m in Sources */,
+				875D5ED11E656CDF00B72AAF /* MIUPropertyScannerTests.m in Sources */,
+				875D5ECD1E656CDF00B72AAF /* MIUClassTests.m in Sources */,
+				875D5ED41E656CDF00B72AAF /* MIUTestObjectsFactory.m in Sources */,
+				875D5ED91E656DE400B72AAF /* MIUClass.m in Sources */,
+				875D5ED71E656DC400B72AAF /* MIUEnum.m in Sources */,
+				875D5ECE1E656CDF00B72AAF /* MIUIntefaceTests.m in Sources */,
+				875D5ECF1E656CDF00B72AAF /* MIUInterfacesScannerTests.m in Sources */,
+				875D5EDE1E656E4800B72AAF /* MIUProtocolConfigurator.m in Sources */,
+				875D5ED31E656CDF00B72AAF /* MIUProtocolConfiguratorTests.m in Sources */,
+				875D5EB91E656C6700B72AAF /* MIUTests.m in Sources */,
+				875D5EDB1E656E0D00B72AAF /* MIUInterfacesScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50455F841DC3350F000A4025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776764991DF999EC006B6723 /* Base */,
+				7767649A1DF999F7006B6723 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7767649D1DF99A38006B6723 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7767649C1DF99A38006B6723 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50455F881DC3350F000A4025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50455F891DC3350F000A4025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50455F8B1DC3350F000A4025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AppMIU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = nix.MIU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50455F8C1DC3350F000A4025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AppMIU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = nix.MIU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		875D5EBB1E656C6700B72AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9A265LSHM3;
+				INFOPLIST_FILE = MIUTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nixsolutions.behaviourTests.MIUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		875D5EBC1E656C6700B72AAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9A265LSHM3;
+				INFOPLIST_FILE = MIUTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nixsolutions.behaviourTests.MIUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50455F711DC3350F000A4025 /* Build configuration list for PBXProject "MIU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50455F881DC3350F000A4025 /* Debug */,
+				50455F891DC3350F000A4025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		50455F8A1DC3350F000A4025 /* Build configuration list for PBXNativeTarget "MIU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50455F8B1DC3350F000A4025 /* Debug */,
+				50455F8C1DC3350F000A4025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		875D5EBD1E656C6700B72AAF /* Build configuration list for PBXNativeTarget "MIUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875D5EBB1E656C6700B72AAF /* Debug */,
+				875D5EBC1E656C6700B72AAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		777E2ED41DF18E7B00164435 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				777E2ED51DF18E7B00164435 /* Model.xcdatamodel */,
+			);
+			currentVersion = 777E2ED51DF18E7B00164435 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50455F6E1DC3350F000A4025 /* Project object */;
+}

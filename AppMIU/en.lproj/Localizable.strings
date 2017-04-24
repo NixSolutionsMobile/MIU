@@ -1,0 +1,16 @@
+
+/*Алерт добавления одиного и того же проекта */
+"alert.adding_exist_path %@" = "Project with path \"%@\" already exists";
+"alert.showing_root_folder_doesnt_exist.title" = "Warning!";
+"alert.showing_root_folder_doesnt_exist.description" = "Root folder doesn't exist.!";
+
+/*Алерт добавления удаления проекта */
+"alert.deleting_project.confirm_button.title" = "Remove project";
+"alert.deleting_project.cancel_button.title" = "Cancel";
+"alert.deleting_project.title" = "Are you sure you want to remove selected project?";
+"alert.deleting_project.description" = "Confirm remove?";
+
+/*Итемы контекстого меню главного экрана*/
+"context_menu.open" = "Open";
+"context_menu.rename" = "Rename";
+"context_menu.remove" = "Remove";
